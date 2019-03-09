@@ -172,7 +172,6 @@ class Params
         values[] = {4000,5000,6000,7000,8000,16000};
         texts[] = {"4 Kmts","5 Kmts","6 Kmts","7 Kmts","8 Kmts","Unlimited"};
         default = 5000;
-        //file = "setViewDistance.sqf"; // (Optional) Script [[call]]ed when player joins, selected value is passed as an argument
     };
     class allowFT
     {
@@ -180,6 +179,13 @@ class Params
         values[] = {0,1};
         texts[] = {"No","Yes"};
         default = 1;
+    };
+    class unlockGuided
+    {
+        title = "Allow guided missiles to be unlocked";
+        values[] = {0,1};
+        texts[] = {"No","Yes"};
+        default = 0;
     };
 };
 
